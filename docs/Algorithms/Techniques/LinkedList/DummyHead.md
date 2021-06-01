@@ -17,7 +17,6 @@ insert_at_tail(None, 5)
 
 vs.
 
-
 ```
 def insert_at_tail(old_tail, i):
     new_tail = Node(i)

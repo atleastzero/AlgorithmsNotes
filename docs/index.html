@@ -14,10 +14,16 @@
   <script>
     window.$docsify = {
       name: 'technotes',
+      loadSidebar: true,
       search: {
-        paths: 'auto',
-        placeholder: 'Search'
-      }
+          maxAge: 86400000,
+          paths: "auto",
+          placeholder: 'Search',
+          noData: 'No Results!',
+          depth: 6,
+          hideOtherSidebarContent: false,
+          namespace: 'technotes',
+        },
     }
   </script>
   <!-- Docsify v4 -->
